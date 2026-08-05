@@ -1,25 +1,20 @@
-# 🚀 Full Stack Web Development - Week 1: HTML Fundamentals
+# 🚀 Full Stack Web Development - Coursework
 
-Welcome to my repository for **Week 1** of my Full Stack Development training! This week focused on mastering HTML fundamentals, tags, and document structures through hands-on practice.
-
-Special thanks to my mentor **[Vimal4hckr](https://github.com/Vimal4hckr)** for the guidance and tasks!
+Welcome to my central repository for my Full Stack Web Development training! This repository tracks my weekly progress, assignments, and practical exercises mentored by **[@Vimal4hckr](https://github.com/Vimal4hckr)**.
 
 ---
 
-## 📌 Week 1 Focus: HTML
+## 📂 Repository Structure
 
-During this week, I learned and implemented key HTML concepts:
-- **Semantic HTML Elements:** Structuring web pages cleanly using semantic tags.
-- **Form Elements & Tags:** Creating interactive forms and structuring content.
-- **Basic Styling:** Integrating basic CSS (`style.css`) to style page elements.
-
----
-
-## 📂 Repository Content
-
-- `party.html` - Practice HTML web page demonstrating layout, tags, and formatting.
-- `style.css` - Custom styling applied to the HTML practice page.
-- `Tag.docx` & `invitation.docx` - Reference notes and activity documentation.
+```text
+Full-Stack-Coursework/
+├── Week-01-practice/
+│   ├── party.html       # Practice HTML page layout
+│   ├── style.css       # Custom CSS styling
+│   ├── Tag.docx        # Tag documentation & notes
+│   └── invitation.docx # Reference file
+│__
+└── README.md
 
 ---
 
