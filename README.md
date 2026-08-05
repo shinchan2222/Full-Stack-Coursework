@@ -12,20 +12,9 @@ Full-Stack-Coursework/
 │   ├── party.html       # Practice HTML page layout
 │   ├── style.css       # Custom CSS styling
 │   ├── Tag.docx        # Tag documentation & notes
-│   └── invitation.docx # Reference file
+│   └── invitation.docx # Reference file.
 │__
 └── README.md
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Markup:** HTML5
-- **Styling:** CSS3
-- **Tools:** VS Code, Git, GitHub
-
----
-
-## 🎓 Mentorship
-
-Mentored by **[Vimal4hckr](https://github.com/Vimal4hckr)** as part of the Full Stack Development program.
