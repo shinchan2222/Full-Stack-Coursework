@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background:red;
+    animation-name:colorChange;
+    animation-duration:3s;
+}
+
+@keyframes colorChange{
+    from{
+        background:red;
+    }
+    to{
+        background:blue;
+    }
+}

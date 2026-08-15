@@ -1,0 +1,17 @@
+/* Controls whether the background image repeats */
+/*
+repeat      - Default. Repeats horizontally and vertically.
+            Image repeats across the entire page.
+repeat-x    - Repeats horizontally only.
+              Image repeats only from left to right.
+repeat-y    - Repeats vertically only.
+              Image repeats only from top to bottom.
+no-repeat   - Shows the image only once.
+              Only one image is displayed.
+*/
+body{
+    background-image: url("background.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+   
+}

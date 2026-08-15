@@ -1,0 +1,14 @@
+/* The line-height property controls
+the space between lines of text. */
+/* Default line spacing */
+.normal{
+    line-height:normal;
+}
+/* Medium line spacing */
+.medium{
+    line-height:1.5;
+}
+/* Large line spacing */
+.large{
+    line-height:2;
+}

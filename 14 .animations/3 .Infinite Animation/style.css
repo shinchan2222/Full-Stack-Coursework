@@ -1,0 +1,12 @@
+.box{
+    animation:rotateBox 2s infinite;
+}
+
+@keyframes rotateBox{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

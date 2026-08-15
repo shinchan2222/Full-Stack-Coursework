@@ -1,0 +1,98 @@
+/* for  = plus +
+.plus{
+    width:60px;
+    height:60px;
+    position:relative;
+}
+
+.plus::before,
+.plus::after{
+    content:"";
+    position:absolute;
+    background:black;
+}
+
+.plus::before{
+    width:10px;
+    height:60px;
+    left:25px;
+}
+
+.plus::after{
+    width:60px;
+    height:10px;
+    top:25px;
+}
+    */
+
+    /*for minus = -
+    .minus{
+    width:60px;
+    height:10px;
+    background:black;
+}
+    */
+    /*Arrow  = (→)
+    .arrow{
+    width:60px;
+    height:6px;
+    background:black;
+    position:relative;
+}
+
+.arrow::after{
+    content:"";
+    position:absolute;
+    width:18px;
+    height:18px;
+    border-top:6px solid black;
+    border-right:6px solid black;
+    transform:rotate(45deg);
+    right:0;
+    top:-9px;
+}
+    */
+    /*Check = (✔)
+    .check{
+    width:20px;
+    height:40px;
+    border-right:6px solid green;
+    border-bottom:6px solid green;
+    transform:rotate(45deg);
+}
+    */
+    /*Heart = (♥)
+    .heart{
+    width:50px;
+    height:50px;
+    background:red;
+    transform:rotate(-45deg);
+    position:relative;
+}
+
+.heart::before,
+.heart::after{
+    content:"";
+    position:absolute;
+    width:50px;
+    height:50px;
+    background:red;
+    border-radius:50%;
+}
+
+.heart::before{
+    top:-25px;
+    left:0;
+}
+
+.heart::after{
+    left:25px;
+    top:0;
+}
+    */
+    /*Star =(★)
+    .star{
+    font-size:60px;
+    color:gold;
+}
+    */

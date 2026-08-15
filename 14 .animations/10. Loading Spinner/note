@@ -1,0 +1,10 @@
+animation-name: moveBox;
+animation-duration: 3s;
+animation-timing-function: ease;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+insted we can use 
+
+animation: moveBox 3s ease 1s infinite alternate;

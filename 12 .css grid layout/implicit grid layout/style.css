@@ -1,0 +1,29 @@
+/* Body Styling */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Grid Container */
+.container{
+    display: grid;
+    /* Only 2 columns are defined */
+    grid-template-columns: 150px 150px;
+    /* Extra rows are created automatically */
+    grid-auto-rows: 100px;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Grid Items */
+.item{
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+/* Body */
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f5f5f5;
+}
+/* Search Icon */
+.search-icon{
+    width:60px;
+    height:60px;
+    border:8px solid #000;
+    border-radius:50%;
+    position:relative;
+    box-sizing:border-box;
+}
+.search-icon::after{
+    content:"";
+    position:absolute;
+    width:30px;
+    height:8px;
+    background:#000;
+    right:-22px;
+    bottom:-8px;
+    transform:rotate(45deg);
+    border-radius:5px;
+}

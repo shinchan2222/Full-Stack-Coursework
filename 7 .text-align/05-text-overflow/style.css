@@ -1,0 +1,26 @@
+/* The text-overflow property controls
+how hidden text is displayed
+when it overflows. */
+/*
+Required Properties
+
+width
+white-space
+overflow
+text-overflow */
+/* Clip Overflow */
+.clip{
+    width:250px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:clip;
+    border:2px solid black;
+}
+/* Ellipsis Overflow */
+.ellipsis{
+    width:250px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    border:2px solid blue;
+}

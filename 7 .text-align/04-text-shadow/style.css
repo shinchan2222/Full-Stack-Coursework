@@ -1,0 +1,24 @@
+/* The text-shadow property adds
+a shadow effect behind text. */
+/* Syntax
+text-shadow:
+horizontal-shadow
+vertical-shadow
+blur-radius
+color; */
+/* Black Shadow */
+.shadow1{
+    text-shadow:2px 2px black;
+}
+/* Blue Shadow */
+.shadow2{
+    text-shadow:3px 3px blue;
+}
+/* Blurred Shadow */
+.shadow3{
+    text-shadow:3px 3px 5px gray;
+}
+/* Red Shadow */
+.shadow4{
+    text-shadow:4px 4px 6px red;
+}

@@ -1,0 +1,18 @@
+/* The text-transform property changes
+the capitalization of text. */
+/* Converts all letters to uppercase */
+.uppercase{
+    text-transform:uppercase;
+}
+/* Converts all letters to lowercase */
+.lowercase{
+    text-transform:lowercase;
+}
+/* Capitalizes the first letter of every word */
+.capitalize{
+    text-transform:capitalize;
+}
+/* Displays text as originally written */
+.none{
+    text-transform:none;
+}

@@ -1,0 +1,16 @@
+/*
+The font-style property changes
+the appearance of the text.
+*/
+/* Normal text */
+.normal{
+    font-style:normal;
+}
+/* Italic text */
+.italic{
+    font-style:italic;
+}
+/* Oblique text */
+.oblique{
+    font-style:oblique;
+}

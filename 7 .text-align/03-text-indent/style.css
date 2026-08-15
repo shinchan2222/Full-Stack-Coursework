@@ -1,0 +1,15 @@
+/* The text-indent property adds
+space before the first line
+of a paragraph. */
+/* Default */
+.normal{
+    text-indent:0px;
+}
+/* Indent first line by 50px */
+.indent50{
+    text-indent:50px;
+}
+/* Indent first line by 100px */
+.indent100{
+    text-indent:100px;
+}

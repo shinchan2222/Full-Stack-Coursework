@@ -1,0 +1,18 @@
+/* The word-spacing property changes
+the space between words. */
+/* Default spacing */
+.normal{
+    word-spacing:normal;
+}
+/* Adds 10px space between words */
+.wide{
+    word-spacing:10px;
+}
+/* Adds 20px space between words */
+.extra-wide{
+    word-spacing:20px;
+}
+/* Reduces space between words */
+.tight{
+    word-spacing:-3px;
+}

@@ -1,0 +1,22 @@
+/* The overflow-wrap property allows
+long words to wrap onto the next line.
+
+The word-break property controls
+how words break inside a container. */
+/* Normal Text */
+.normal{
+    width:250px;
+    border:2px solid black;
+}
+/* Wrap Long Words */
+.wrap{
+    width:250px;
+    border:2px solid blue;
+    overflow-wrap:break-word;
+}
+/* Break Words Anywhere */
+.break{
+    width:250px;
+    border:2px solid red;
+    word-break:break-all;
+}

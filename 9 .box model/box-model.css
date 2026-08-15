@@ -1,0 +1,21 @@
+/* Body */
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f4f4f4;
+}
+
+/* Box Model Example */
+.box{
+    width:200px;                 /* Content Width */
+    height:100px;                /* Content Height */
+    padding:20px;                /* Space inside border */
+    border:5px solid rgb(0, 0, 0);       /* Border */
+    margin:20px;                 /* Space outside border */
+    background:lightblue;
+    text-align:center;
+    line-height:100px;
+    font-size:22px;
+}

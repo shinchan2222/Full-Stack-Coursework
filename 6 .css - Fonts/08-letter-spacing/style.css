@@ -1,0 +1,18 @@
+/* The letter-spacing property changes
+the space between characters. */
+/* Default spacing */
+.normal{
+    letter-spacing:normal;
+}
+/* Adds 3px space between letters */
+.wide{
+    letter-spacing:3px;
+}
+/* Adds 8px space between letters */
+.extra-wide{
+    letter-spacing:8px;
+}
+/* Reduces space between letters */
+.tight{
+    letter-spacing:-1px;
+}

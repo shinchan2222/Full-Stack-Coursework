@@ -1,0 +1,23 @@
+/* The vertical-align property
+aligns inline elements or
+table-cell content vertically. */
+
+/* Normal Alignment */
+.normal{
+    vertical-align:baseline;
+}
+
+/* Top Alignment */
+.top{
+    vertical-align:top;
+}
+
+/* Middle Alignment */
+.middle{
+    vertical-align:middle;
+}
+
+/* Bottom Alignment */
+.bottom{
+    vertical-align:bottom;
+}

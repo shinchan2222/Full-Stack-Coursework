@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    color:#333;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#222;
+    color:white;
+    padding:15px 40px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:yellow;
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #444;
+}
+
+.hero h1{
+    margin-top:15px;
+}
+
+.hero h3{
+    color:gray;
+    margin:10px 0;
+}
+
+.hero button{
+    margin-top:20px;
+    padding:10px 20px;
+    border:none;
+    background:royalblue;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    background:blue;
+}
+
+section{
+    padding:50px;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 0 8px gray;
+    border-radius:10px;
+}
+
+.projects{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    flex:1;
+    min-width:250px;
+    background:white;
+    padding:20px;
+    box-shadow:0 0 8px gray;
+    border-radius:10px;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+form button{
+    width:100%;
+    padding:10px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:darkgreen;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    nav{
+        flex-direction:column;
+    }
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+        margin-top:10px;
+    }
+    nav ul li{
+        margin:10px 0;
+    }
+    .skills{
+        grid-template-columns:1fr;
+    }
+    .projects{
+        flex-direction:column;
+    }
+}

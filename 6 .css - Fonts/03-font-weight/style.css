@@ -1,0 +1,28 @@
+/*-----------------------------------
+    CSS FONT WEIGHT
+------------------------------------*/
+
+/*
+The font-weight property controls
+how thick or thin the text appears.
+*/
+
+/* Normal weight */
+.normal{
+    font-weight:normal;
+
+}
+/* Bold weight */
+.bold{
+    font-weight:bold;
+
+}
+/* Light weight */
+.light{
+
+    font-weight:300;
+}
+/* Extra Bold weight */
+.bolder{
+    font-weight:900;
+}

@@ -1,0 +1,24 @@
+/* Instead of writing many properties separately,
+   use the background shorthand. */
+
+/* Separate Properties
+
+body{
+    background-color: lightblue;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*/
+
+/* Shorthand */
+body{
+    background: lightblue url("background.jpg") no-repeat center/cover fixed;
+}
+h1{
+    color: white;
+    text-align: center;
+}

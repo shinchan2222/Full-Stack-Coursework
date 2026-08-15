@@ -1,0 +1,20 @@
+/* Changes the position of the background image */
+
+/*
+Available Values:
+left top
+left center
+left bottom
+center top
+center
+center bottom
+right top
+right center
+right bottom
+*/
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position:right top; ;
+}

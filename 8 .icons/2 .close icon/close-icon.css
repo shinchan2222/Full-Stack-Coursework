@@ -1,0 +1,32 @@
+/* Body */
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f5f5f5;
+}
+/* Close Icon */
+.close-icon{
+    width:70px;
+    height:70px;
+    position:relative;
+}
+.close-icon::before,
+.close-icon::after{
+    content:"";
+    position:absolute;
+    width:70px;
+    height:8px;
+    background:red;
+    top:31px;
+    left:0;
+    border-radius:5px;
+}
+.close-icon::before{
+    transform:rotate(45deg);
+}
+.close-icon::after{
+    transform:rotate(-45deg);
+}

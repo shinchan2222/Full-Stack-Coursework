@@ -1,0 +1,18 @@
+/* The text-align property changes
+the horizontal alignment of text. */
+/* Left Alignment */
+.left{
+    text-align:left;
+}
+/* Center Alignment */
+.center{
+    text-align:center;
+}
+/* Right Alignment */
+.right{
+    text-align:right;
+}
+/* Justify Alignment */
+.justify{
+    text-align:justify;
+}

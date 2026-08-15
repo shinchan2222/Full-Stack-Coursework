@@ -1,0 +1,30 @@
+/*Flexbox is a CSS layout model used to arrange items in a row or column.
+It makes it easy to align, distribute, and space elements.
+/* Body */
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f4f4f4;
+}
+/* Flex Container */
+.container{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    background:white;
+    border:2px solid black;
+}
+/* Flex Items */
+.box{
+    width:100px;
+    height:100px;
+    background:royalblue;
+    color:white;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

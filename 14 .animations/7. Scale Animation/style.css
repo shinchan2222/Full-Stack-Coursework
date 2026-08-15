@@ -1,0 +1,11 @@
+.box{
+    animation:scaleBox 2s infinite alternate;
+}
+@keyframes scaleBox{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.5);
+    }
+}

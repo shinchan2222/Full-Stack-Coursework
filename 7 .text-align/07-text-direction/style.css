@@ -1,0 +1,23 @@
+/* The direction property sets
+the writing direction of text.
+
+ltr = Left to Right
+rtl = Right to Left */
+
+/* Left to Right */
+.ltr{
+    direction:ltr;
+}
+
+/* Right to Left */
+.rtl{
+    direction:rtl;
+}
+
+/* unicode-bidi works together
+with direction to control
+bidirectional text. */
+.rtl-bidi{
+    direction:rtl;
+    unicode-bidi:bidi-override;
+}

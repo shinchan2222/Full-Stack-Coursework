@@ -1,0 +1,22 @@
+/* The color property changes
+the color of the text. */
+/* Red Color */
+.red{
+    color:red;
+}
+/* Green Color */
+.green{
+    color:green;
+}
+/* Blue Color */
+.blue{
+    color:blue;
+}
+/* HEX Color */
+.hex{
+    color:#ff6600;
+}
+/* RGB Color */
+.rgb{
+    color:rgb(128,0,128);
+}

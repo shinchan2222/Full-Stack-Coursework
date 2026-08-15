@@ -1,0 +1,28 @@
+/* The writing-mode property changes
+the direction in which text is written. */
+
+/* Default Horizontal Text */
+.horizontal{
+    writing-mode:horizontal-tb;
+}
+
+/* Vertical Right to Left */
+.vertical-rl{
+    writing-mode:vertical-rl;
+    border:2px solid blue;
+    height:200px;
+}
+
+/* Vertical Left to Right */
+.vertical-lr{
+    writing-mode:vertical-lr;
+    border:2px solid red;
+    height:200px;
+}
+
+/* | Property                   | Purpose                               | Example          |
+| ----------------------------- | ------------------------------------- | ---------------- |
+| writing-mode:horizontal-tb;   | Horizontal text                       | Default          |
+| writing-mode:vertical-rl;     | Vertical text (right to left columns) | Vertical banner  |
+| writing-mode:vertical-lr;     | Vertical text (left to right columns) | Vertical heading |
+*/

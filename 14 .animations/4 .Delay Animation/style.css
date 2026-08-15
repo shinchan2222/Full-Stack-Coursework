@@ -1,0 +1,4 @@
+.box{
+    animation:moveBox 3s;
+    animation-delay:2s;
+}

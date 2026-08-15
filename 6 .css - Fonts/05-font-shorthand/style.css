@@ -1,0 +1,22 @@
+/*
+The font shorthand property combines
+multiple font properties into one line.
+*/
+/*
+Order of values
+font-style
+font-weight
+font-size
+line-height (optional)
+
+syntax :
+selector{
+    font: font-style font-weight font-size/line-height font-family;
+}
+*/
+.text1{
+    font:italic bold 24px Arial, sans-serif;
+}
+.text2{
+    font:normal 18px Georgia, serif;
+}

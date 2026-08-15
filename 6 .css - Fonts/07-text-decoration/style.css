@@ -1,0 +1,18 @@
+/* The text-decoration property adds
+or removes decorative lines from text. */
+/* Adds an underline */
+.underline{
+    text-decoration:underline;
+}
+/* Adds a line above the text */
+.overline{
+    text-decoration:overline;
+}
+/* Adds a line through the text */
+.line-through{
+    text-decoration:line-through;
+}
+/* Removes underline from links */
+.none{
+    text-decoration:none;
+}

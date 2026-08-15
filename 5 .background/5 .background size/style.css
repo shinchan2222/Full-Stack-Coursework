@@ -1,0 +1,15 @@
+/* Changes the size of the background image */
+
+/*
+Values:
+cover       - Covers the entire element.
+contain     - Fits the whole image inside the element.
+100px 100px - Custom width and height.
+50% 50%     - Percentage width and height.
+*/
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: repeat-y;
+    background-size: contains;
+}

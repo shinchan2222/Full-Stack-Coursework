@@ -1,0 +1,21 @@
+.box{
+    animation:move 3s infinite alternate,
+              color 3s infinite;
+
+}
+@keyframes move{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(250px);
+    }
+}
+@keyframes color{
+    from{
+        background:red;
+    }
+    to{
+        background:blue;
+    }
+}

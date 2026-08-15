@@ -1,0 +1,31 @@
+/* The white-space property controls
+how spaces and line breaks
+are handled inside an element. */
+
+/* Default Behavior */
+.normal{
+    white-space:normal;
+    border:2px solid black;
+    width:250px;
+}
+
+/* Prevent Line Wrapping */
+.nowrap{
+    white-space:nowrap;
+    border:2px solid blue;
+    width:250px;
+}
+
+/* Preserve Spaces and Line Breaks */
+.pre{
+    white-space:pre;
+    border:2px solid green;
+    width:250px;
+}
+
+/* Preserve Spaces and Allow Wrapping */
+.pre-wrap{
+    white-space:pre-wrap;
+    border:2px solid red;
+    width:250px;
+}

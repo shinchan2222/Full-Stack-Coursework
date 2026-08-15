@@ -1,0 +1,17 @@
+
+/* ID Selector */
+#heading {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    background-color: lightyellow;
+    padding: 80px;
+    border: 2px solid black;
+}
+#hp{
+    font-size: 80px;
+    text-align: left;
+    background-color: hsl(60, 100%, 50%);
+    padding: 80px;
+    border: 2px solid #f70000;
+}

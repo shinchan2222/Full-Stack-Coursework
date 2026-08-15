@@ -1,0 +1,17 @@
+/* Specifies where the background is painted */
+
+/*
+Values:
+border-box
+padding-box
+content-box
+*/
+
+div{
+    width:300px;
+    height:200px;
+    border:10px solid blue;
+    padding:80px;
+    background-color:lightgreen;
+    background-clip:border-box;
+}
