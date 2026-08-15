@@ -1,0 +1,1248 @@
+/* ==========================================
+            GOOGLE FONT
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ==========================================
+            CSS VARIABLES
+========================================== */
+
+:root{
+
+    --primary:#e63946;
+    --secondary:#ffbe0b;
+    --dark:#222;
+    --light:#ffffff;
+    --background:#f8f9fa;
+    --gray:#666;
+    --shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+
+/* ==========================================
+            CSS RESET
+========================================== */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:var(--background);
+    color:var(--dark);
+    line-height:1.7;
+
+}
+
+
+/* ==========================================
+            IMAGES
+========================================== */
+
+img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+
+/* ==========================================
+            LINKS
+========================================== */
+
+a{
+
+    text-decoration:none;
+    color:white;
+
+}
+
+
+/* ==========================================
+            LISTS
+========================================== */
+
+ul,
+ol{
+
+    padding-left:30px;
+
+}
+
+
+/* ==========================================
+            HORIZONTAL LINE
+========================================== */
+
+hr{
+
+    margin:50px 0;
+    border:none;
+    height:2px;
+    background:#ddd;
+
+}
+
+
+/* ==========================================
+            HEADER
+========================================== */
+
+header{
+
+    background:#d62828;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+
+}
+
+
+header h1{
+
+    font-size:3rem;
+    margin-bottom:15px;
+
+}
+
+
+header p{
+
+    font-size:1.2rem;
+
+}
+
+
+/* ==========================================
+            NAVIGATION
+========================================== */
+
+nav{
+
+    background:#111;
+    position:sticky;
+    top:0;
+    z-index:999;
+
+}
+
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+
+nav ul li{
+
+    margin:15px;
+
+}
+
+
+nav ul li a{
+
+    color:white;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+nav ul li a:hover{
+
+    color:gold;
+
+}
+
+
+/* ==========================================
+            MAIN
+========================================== */
+
+main{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+
+/* ==========================================
+            SECTION
+========================================== */
+
+section{
+
+    margin:60px 0;
+
+}
+
+
+section h2{
+
+    font-size:2rem;
+    margin-bottom:20px;
+    color:var(--primary);
+
+}
+
+
+section p{
+
+    margin-bottom:15px;
+
+}
+
+
+/* ==========================================
+            HERO
+========================================== */
+
+#hero{
+
+    text-align:center;
+
+}
+
+
+#hero figure{
+
+    margin-bottom:25px;
+
+}
+
+
+#hero img{
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+#hero h2{
+
+    font-size:2.5rem;
+
+    margin:20px 0;
+
+}
+
+
+#hero button{
+
+    padding:12px 30px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+
+#hero button:hover{
+
+    background:black;
+
+    transform:translateY(-5px);
+
+}
+
+
+/* ==========================================
+            ABOUT
+========================================== */
+
+#about article{
+
+    background:white;
+
+    margin:30px 0;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+#about h3{
+
+    color:#d62828;
+
+    margin-bottom:15px;
+
+}
+
+
+blockquote{
+
+    font-size:22px;
+
+    font-style:italic;
+
+    border-left:5px solid crimson;
+
+    padding-left:20px;
+
+    margin:20px 0;
+
+}
+
+
+cite{
+
+    color:#555;
+
+}
+
+
+/* ==========================================
+            LISTS
+========================================== */
+
+ul li{
+
+    margin:10px 0;
+
+}
+
+
+ol li{
+
+    margin:10px 0;
+
+}
+
+
+/* ==========================================
+        PARTY INFORMATION
+========================================== */
+
+#party-info{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+#party-info dl{
+
+    display:grid;
+
+    grid-template-columns:200px auto;
+
+    row-gap:20px;
+
+}
+
+
+dt{
+
+    font-weight:bold;
+
+    color:crimson;
+
+}
+
+
+dd{
+
+    color:#444;
+
+}
+
+
+/* ==========================================
+            OBJECTIVES
+========================================== */
+
+section ol{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+/* ==========================================
+            ASIDE
+========================================== */
+
+aside{
+
+    background:#fff8dc;
+
+    border-left:8px solid orange;
+
+    padding:25px;
+
+    border-radius:10px;
+
+}
+
+
+aside h2{
+
+    color:#d62828;
+
+}
+
+
+mark{
+
+    background:yellow;
+
+    padding:5px;
+
+}
+
+
+/* ==========================================
+            FUN FACTS
+========================================== */
+
+section p strong{
+
+    color:crimson;
+
+}
+
+
+/* ==========================================
+            CODE BLOCK
+========================================== */
+
+pre{
+
+    background:#1f1f1f;
+
+    color:#00ff00;
+
+    padding:20px;
+
+    overflow:auto;
+
+    border-radius:10px;
+
+}
+
+
+code{
+
+    font-family:Consolas,monospace;
+
+}
+
+
+/* ==========================================
+            BUTTON
+========================================== */
+
+button{
+
+    cursor:pointer;
+
+}
+
+/* ==========================================
+            FOOTER SPACE
+========================================== */
+
+footer{
+
+    margin-top:80px;
+
+}
+/* ==========================================
+            STRAW HAT CREW
+========================================== */
+
+#crew{
+
+    text-align:center;
+
+}
+
+#crew p{
+
+    margin-bottom:40px;
+
+}
+
+/* Crew Articles */
+
+#crew article{
+
+    display:inline-block;
+
+    width:260px;
+
+    background:white;
+
+    margin:20px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    vertical-align:top;
+
+    transition:.4s;
+
+}
+
+/* Crew Images */
+
+#crew img{
+
+    width:220px;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    margin:auto;
+
+    border:5px solid var(--secondary);
+
+}
+
+/* Crew Caption */
+
+#crew figcaption{
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+}
+
+/* Crew Heading */
+
+#crew h3{
+
+    margin:15px 0;
+
+    color:#222;
+
+}
+
+/* Hover */
+
+#crew article:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+
+}
+
+
+/* ==========================================
+            EVENT HIGHLIGHTS
+========================================== */
+
+#highlights{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+#highlights ul{
+
+    columns:2;
+
+}
+
+#highlights li{
+
+    margin:15px 0;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+#highlights li:hover{
+
+    color:crimson;
+
+    transform:translateX(10px);
+
+}
+
+
+/* ==========================================
+            TABLES
+========================================== */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:25px;
+
+    background:white;
+
+    box-shadow:var(--shadow);
+
+}
+
+caption{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+    color:var(--primary);
+
+}
+
+th{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:15px;
+
+}
+
+td{
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+tr:nth-child(even){
+
+    background:#f5f5f5;
+
+}
+
+tr:hover{
+
+    background:#ffe8cc;
+
+}
+
+
+/* ==========================================
+            MENU SECTION
+========================================== */
+
+#menu{
+
+    text-align:center;
+
+}
+
+
+/* ==========================================
+            SCHEDULE SECTION
+========================================== */
+
+#schedule{
+
+    text-align:center;
+
+}
+
+
+/* ==========================================
+            PROGRESS
+========================================== */
+
+progress{
+
+    width:100%;
+
+    height:30px;
+
+    margin:20px 0;
+
+}
+
+progress::-webkit-progress-bar{
+
+    background:#ddd;
+
+}
+
+progress::-webkit-progress-value{
+
+    background:crimson;
+
+}
+
+
+/* ==========================================
+            METER
+========================================== */
+
+meter{
+
+    width:100%;
+
+    height:30px;
+
+}
+
+
+/* ==========================================
+            IMPORTANT NOTICE
+========================================== */
+
+aside{
+
+    transition:.3s;
+
+}
+
+aside:hover{
+
+    transform:scale(1.02);
+
+}
+
+
+/* ==========================================
+            HOVER EFFECTS
+========================================== */
+
+img{
+
+    transition:.4s;
+
+}
+
+img:hover{
+
+    transform:scale(1.03);
+
+}
+
+button:hover{
+
+    transform:translateY(-4px);
+
+}
+
+
+/* ==========================================
+            SECTION ANIMATION
+========================================== */
+
+section{
+
+    transition:.4s;
+
+}
+
+section:hover{
+
+    transform:translateY(-3px);
+
+}
+
+
+/* ==========================================
+            RESPONSIVE TABLE
+========================================== */
+
+table{
+
+    overflow-x:auto;
+
+}
+/* ==========================================
+            GALLERY
+========================================== */
+
+#gallery{
+
+    text-align:center;
+
+}
+
+#gallery figure{
+
+    display:inline-block;
+
+    width:260px;
+
+    margin:20px;
+
+    padding:15px;
+
+    background:white;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    transition:.4s;
+
+    vertical-align:top;
+
+}
+
+#gallery figure:hover{
+
+    transform:translateY(-10px);
+
+}
+
+#gallery img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+}
+
+#gallery figcaption{
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+}
+
+
+/* ==========================================
+            AUDIO
+========================================== */
+
+audio{
+
+    width:100%;
+
+    margin-top:20px;
+
+}
+
+
+/* ==========================================
+            VIDEO
+========================================== */
+
+video{
+
+    width:100%;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    margin-top:20px;
+
+}
+
+
+/* ==========================================
+            FORM
+========================================== */
+
+form{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+fieldset{
+
+    border:2px solid var(--primary);
+
+    padding:25px;
+
+    border-radius:10px;
+
+}
+
+legend{
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+    padding:0 15px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+}
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:8px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    font-family:inherit;
+
+}
+
+textarea{
+
+    resize:vertical;
+
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+
+    width:auto;
+
+    margin-right:8px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+
+    outline:none;
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 8px rgba(230,57,70,.25);
+
+}
+
+form button{
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+form button:hover{
+
+    background:black;
+
+}
+
+
+/* ==========================================
+            FAQ
+========================================== */
+
+details{
+
+    background:white;
+
+    margin:20px 0;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    box-shadow:var(--shadow);
+
+}
+
+summary{
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+    font-size:18px;
+
+}
+
+details p{
+
+    margin-top:15px;
+
+}
+
+
+/* ==========================================
+            MAP
+========================================== */
+
+iframe{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+/* ==========================================
+            CONTACT
+========================================== */
+
+address{
+
+    background:white;
+
+    padding:30px;
+
+    border-left:6px solid var(--primary);
+
+    border-radius:10px;
+
+    box-shadow:var(--shadow);
+
+    font-style:normal;
+
+    line-height:2;
+
+}
+
+
+/* ==========================================
+            FOOTER
+========================================== */
+
+footer{
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:50px 20px;
+
+    margin-top:60px;
+
+}
+
+footer h2{
+
+    margin-bottom:15px;
+
+    color:var(--secondary);
+
+}
+
+footer p{
+
+    margin:10px 0;
+
+}
+
+
+/* ==========================================
+            RESPONSIVE DESIGN
+========================================== */
+
+@media(max-width:992px){
+
+    #crew article,
+    #gallery figure{
+
+        width:45%;
+
+    }
+
+    #highlights ul{
+
+        columns:1;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    header h1{
+
+        font-size:2.2rem;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    nav ul li{
+
+        margin:10px 0;
+
+    }
+
+    #crew article,
+    #gallery figure{
+
+        width:90%;
+
+    }
+
+    #party-info dl{
+
+        grid-template-columns:1fr;
+
+    }
+
+    table{
+
+        font-size:14px;
+
+    }
+
+}
+
+
+@media(max-width:480px){
+
+    body{
+
+        font-size:15px;
+
+    }
+
+    section h2{
+
+        font-size:1.6rem;
+
+    }
+
+    button{
+
+        width:100%;
+
+    }
+
+    form{
+
+        padding:20px;
+
+    }
+
+}
