@@ -1,9 +1,11 @@
 body {
+    color: rgb(76, 20, 197);
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
 }
 h1 {
+    color: aqua;
     margin-bottom: 30px;
 }
 input {
@@ -12,6 +14,7 @@ input {
     width: 200px;
 }
 button {
+    color: blue;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
@@ -19,4 +22,5 @@ button {
 
 h2 {
     margin-top: 30px;
+    color: rgb(255, 0, 4);
 }
