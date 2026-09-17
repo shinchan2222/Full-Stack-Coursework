@@ -18,6 +18,7 @@ Welcome to my central repository for my **Full Stack Web Development** journey! 
 | **[Week 03](#-week-03---javascript-core-fundamentals)** | JavaScript Fundamentals | Modern JavaScript (ES6+) | 14 core concept modules, assignments, quiz & interview Q&A |
 | **[Week 04](#-week-04---dom-manipulation--event-handling)** | DOM Manipulation & Events | Vanilla JS, Web APIs | 10 progressive DOM manipulation & event handling modules |
 | **[Week 05](#-week-05---15-interactive-javascript-mini-projects)** | Practical DOM Mini Projects | HTML5, CSS3, JavaScript | 15 complete, interactive web apps & utility tools |
+| **[Week 06](#-week-06---progressive-javascript-mini-projects)** | Progressive JavaScript Projects | HTML5, CSS3, JavaScript | 15 progressive web applications & refined DOM implementations |
 
 ---
 
@@ -69,22 +70,39 @@ Full-Stack-Coursework/
 │   ├── module-09-event-listeners/                  # addEventListener patterns & delegation
 │   └── module-10-dom-traversing/                   # Parent, children & sibling navigation
 │
-└── Week-05-practice/
-    ├── Mini Project 1 - calculator/                # Interactive Arithmetic Calculator
-    ├── Mini Project 2 - todo-list/                 # Core Todo List task manager
-    ├── Mini Project 3 - todo-list (dom manupulation)/ # Dynamic DOM-based Todo App
-    ├── Mini Project 4 — Student Grade Calculator/   # Mark calculation & grading system
-    ├── Mini Project 5 — Digital Counter/           # Click counter with state resets
-    ├── Mini Project 6 — Digital Clock/             # Real-time digital clock with setInterval
-    ├── Mini Project 7 — Random Color Generator/    # Hex/RGB background color generator
-    ├── Mini Project 8 — Age Calculator/            # Birthdate calculator with date diff logic
-    ├── Mini Project 9 — Password Generator/        # Configurable secure password generator
-    ├── Mini Project 10 — Quiz App/                 # Multiple choice quiz with scoring logic
+├── Week-05-practice/
+│   ├── Mini Project 1 - calculator/                # Interactive Arithmetic Calculator
+│   ├── Mini Project 2 - todo-list/                 # Core Todo List task manager
+│   ├── Mini Project 3 - todo-list (dom manupulation)/ # Dynamic DOM-based Todo App
+│   ├── Mini Project 4 — Student Grade Calculator/   # Mark calculation & grading system
+│   ├── Mini Project 5 — Digital Counter/           # Click counter with state resets
+│   ├── Mini Project 6 — Digital Clock/             # Real-time digital clock with setInterval
+│   ├── Mini Project 7 — Random Color Generator/    # Hex/RGB background color generator
+│   ├── Mini Project 8 — Age Calculator/            # Birthdate calculator with date diff logic
+│   ├── Mini Project 9 — Password Generator/        # Configurable secure password generator
+│   ├── Mini Project 10 — Quiz App/                 # Multiple choice quiz with scoring logic
+│   ├── Mini Project 11 — Tip Calculator/           # Bill splitting & gratuity calculator
+│   ├── Mini Project 12 — Expense Tracker/          # Personal budget & expense manager
+│   ├── Mini Project 13 — Income & Expense Tracker/ # Dual cashflow tracker with balance sheet
+│   ├── Mini Project 14 — Notes App/                # Sticky notes application
+│   └── Mini Project 15 — Expense Tracker with Local Storage/ # Persistent expense tracking
+│
+└── Week-06-practice/
+    ├── Mini Project 1 - calculator/                # Progressive Calculator with placeholder & inputs
+    ├── Mini Project 2 - todo-list/                 # Dynamic Todo List application
+    ├── Mini Project 3 - todo-list (dom manupulation)/ # Event-driven DOM task manager
+    ├── Mini Project 4 — Student Grade Calculator/   # Grade assessment & score calculator
+    ├── Mini Project 5 — Digital Counter/           # Interactive state counter with reset
+    ├── Mini Project 6 — Digital Clock/             # Real-time ticking digital clock
+    ├── Mini Project 7 — Random Color Generator/    # Dynamic color picker with background updates
+    ├── Mini Project 8 — Age Calculator/            # Exact date & age computation
+    ├── Mini Project 9 — Password Generator/        # Secure configurable credential generator
+    ├── Mini Project 10 — Quiz App/                 # Dynamic quiz engine with instant scoring
     ├── Mini Project 11 — Tip Calculator/           # Bill splitting & gratuity calculator
-    ├── Mini Project 12 — Expense Tracker/          # Personal budget & expense manager
-    ├── Mini Project 13 — Income & Expense Tracker/ # Dual cashflow tracker with balance sheet
-    ├── Mini Project 14 — Notes App/                # Sticky notes application
-    └── Mini Project 15 — Expense Tracker with Local Storage/ # Persistent expense tracking
+    ├── Mini Project 12 — Expense Tracker/          # Personal spending & budget manager
+    ├── Mini Project 13 — Income & Expense Tracker/ # Income & expense ledger balance sheet
+    ├── Mini Project 14 — Notes App/                # Card-based note taking application
+    └── Mini Project 15 — Expense Tracker with Local Storage/ # Persistent browser-storage expense tracker
 ```
 
 ---
@@ -168,6 +186,29 @@ A collection of 15 fully functional, standalone web applications built with HTML
 
 ---
 
+### 🚀 Week 06 - Progressive JavaScript Mini Projects
+A progressive series of 15 practical mini projects advancing DOM manipulation, dynamic event handling, calculation algorithms, and persistent client-side data:
+
+| # | Project | Description & Core Skills Practiced |
+| :-: | :--- | :--- |
+| **01** | **Calculator** | Arithmetic input handling, calculation operations, and input field formatting |
+| **02** | **Todo List** | Task management workflow: item addition, completion toggle, and removal |
+| **03** | **Todo List (DOM Manipulation)** | Advanced element generation, node traversal, and dynamic UI updates |
+| **04** | **Student Grade Calculator** | Subject marks parsing, aggregate grading logic, and conditional output display |
+| **05** | **Digital Counter** | Real-time state counter with increment, decrement, and reset controls |
+| **06** | **Digital Clock** | Live time tracking via `Date()` API and continuous `setInterval()` cycles |
+| **07** | **Random Color Generator** | Dynamic HEX color code generator with real-time UI background feedback |
+| **08** | **Age Calculator** | Exact age computation across years, months, and days from user input date |
+| **09** | **Password Generator** | Configurable algorithmic password generator with symbols, numbers, and case options |
+| **10** | **Quiz App** | Interactive multiple-choice questionnaire with option validation and final score evaluation |
+| **11** | **Tip Calculator** | Bill total computation, configurable tip percentages, and split-cost calculations |
+| **12** | **Expense Tracker** | Expense item tracking, transaction list rendering, and balance computations |
+| **13** | **Income & Expense Tracker** | Dual-entry financial tracker balancing income streams against expenditures |
+| **14** | **Notes App** | Interactive sticky-notes interface supporting creation, rendering, and removal |
+| **15** | **Expense Tracker (Local Storage)** | Comprehensive budgeting dashboard with persistent `localStorage` integration |
+
+---
+
 ## 💻 Tech Stack & Tools
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -194,7 +235,7 @@ To explore or run any of the practice modules and projects locally:
    ```
 
 3. **Run in Browser:**
-   - **For HTML/CSS/DOM projects (Weeks 1, 2, 4, 5):** Simply open any `.html` file directly in your browser, or use the **VS Code Live Server** extension (`Right Click -> Open with Live Server`).
+   - **For HTML/CSS/DOM projects (Weeks 1, 2, 4, 5, 6):** Simply open any `.html` file directly in your browser, or use the **VS Code Live Server** extension (`Right Click -> Open with Live Server`).
    - **For JavaScript console exercises (Week 3):** Run any script with Node.js:
      ```bash
      node "Week-03-practice/JS-fundamentels-learning-module-main/examples/01-variables.js"
